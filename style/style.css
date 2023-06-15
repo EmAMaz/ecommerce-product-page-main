@@ -1,0 +1,134 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    /* height: 100vh; */
+}
+.navbar-edit-css{
+    border-bottom: 2px solid #00000014;
+}
+.nav-link-logo{
+    font-size: 2.2em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: #000;
+    padding-left: 0px!important;
+    margin-right: 1em;
+    text-transform: lowercase;
+}
+.container-prod-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10em;
+    padding: 6.5em 7em;
+}
+.images-prod-main{
+    width: 100%;
+    border-radius: 10px;
+}
+.container-images-prod-thumbail{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    gap: 30px;
+}
+.container-images-prod-thumbail img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.container-description-prod{
+    align-self: center;
+}
+.subtitle-prod{
+    color: hsl(26, 100%, 55%); 
+    text-transform: uppercase;
+    font-size: 1.05em;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.title-prod{
+    font-weight: bolder;
+    padding: 0.3em 0 0.5em 0;
+    font-size: 3.2em;
+    color: #000;
+}
+.description-prod{
+    letter-spacing: 1px;
+    color: hsla(0, 0%, 26%, 0.637);
+}
+.container-price-price{
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 0.8em;
+    margin-top: 1.5em;
+}
+.price-price-real{
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+.price-price-discount{
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    text-align: center;
+    border-radius: 5px;
+    align-self: center;
+    font-weight: bolder;
+    padding: 0 10px;
+}
+.price-price-back{
+    font-size: 1em;
+    font-weight: bolder;
+    text-decoration:line-through;
+    color: hsla(0, 0%, 26%, 0.288);
+}
+.container-btn-contador{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 2em;
+    width: 100%;
+    margin-top: 2.5em;
+}
+.container-contador{
+    display: inline-flex;
+    padding: 10px 0;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(214, 214, 214, 0.137);
+}
+.container-btn{
+    width: 100%;
+}
+.contador-item-number{
+    padding: 0 20px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.edit-svg{
+    width: 0.9em;
+    cursor: pointer;
+    margin: 0 1.2em;
+}
+.edit-svg-cart{
+    margin-right: 0.6em;
+}
+.btn-add-cart{
+    display: flex;
+    justify-content: center;
+    background-color:hsl(26, 100%, 55%);
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    align-items: center;
+    border: none;
+    width: 100%;
+    border-radius: 7px;
+}
+
+/* SECCION NAVBAR */
+
+.avatar-nav-link{
+    width: 4em;
+    height: 4em;
+}
